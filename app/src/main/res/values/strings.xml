@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Lunchbox Partner</string>
+    <string name="terms_amp_condition"><![CDATA[terms & condition]]></string>
 </resources>
