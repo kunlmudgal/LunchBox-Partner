@@ -52,7 +52,27 @@
                 android:textColorHint="@color/BG"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp">
 
+            <EditText
+                android:id="@+id/hostelname"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@color/Whitebright"
+                android:drawablePadding="6dp"
+                android:ems="10"
+                android:hint="Hostel"
+                android:paddingLeft="20dp"
+                android:textColor="@color/BG"
+                android:textColorHint="@color/BG"
+                android:textSize="18sp" />
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="300dp"
@@ -118,48 +138,49 @@
 <!--        </androidx.cardview.widget.CardView>-->
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            app:cardCornerRadius="20dp">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            app:cardCornerRadius="20dp">-->
 
-            <TextView
-                android:id="@+id/location"
-                android:layout_width="300dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:background="@color/Whitebright"
-                android:drawablePadding="6dp"
-                android:ems="10"
-                android:paddingLeft="20dp"
-                android:textColor="@color/BG"
-                android:textSize="18sp" />
-
-
-            <!--<Spinner-->
-            <!--android:id="@+id/sCity"-->
-            <!--android:layout_width="300dp"-->
-            <!--android:layout_height="50dp"-->
-            <!--android:prompt="@string/discuss_about_header" />-->
-        </androidx.cardview.widget.CardView>
+<!--            <TextView-->
+<!--                android:id="@+id/location"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@color/Whitebright"-->
+<!--                android:hint=""-->
+<!--                android:drawablePadding="6dp"-->
+<!--                android:ems="10"-->
+<!--                android:paddingLeft="20dp"-->
+<!--                android:textColor="@color/BG"-->
+<!--                android:textSize="18sp" />-->
 
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            app:cardCornerRadius="20dp">
+<!--            &lt;!&ndash;<Spinner&ndash;&gt;-->
+<!--            &lt;!&ndash;android:id="@+id/sCity"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:layout_width="300dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:prompt="@string/discuss_about_header" />&ndash;&gt;-->
+<!--        </androidx.cardview.widget.CardView>-->
 
 
-            <Spinner
-                android:id="@+id/sGender"
-                android:layout_width="300dp"
-                android:layout_height="50dp"
-               />
-        </androidx.cardview.widget.CardView>
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            app:cardCornerRadius="20dp">-->
+
+
+<!--            <Spinner-->
+<!--                android:id="@+id/sGender"-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="50dp"-->
+<!--               />-->
+<!--        </androidx.cardview.widget.CardView>-->
 
 
         <androidx.cardview.widget.CardView
