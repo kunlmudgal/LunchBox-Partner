@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734888872711",
+    "firebase_url": "https://lunchbox-partner.firebaseio.com",
+    "project_id": "lunchbox-partner",
+    "storage_bucket": "lunchbox-partner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734888872711:android:922a5ee2191c2142eed3a2",
+        "android_client_info": {
+          "package_name": "com.dscglbajaj.lunchboxpartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734888872711-85093so1eggraga13d6tr32qnoumvilr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dscglbajaj.lunchboxpartner",
+            "certificate_hash": "35f04aa4c7374b5879ffe679a70196a3cfd42529"
+          }
+        },
+        {
+          "client_id": "734888872711-i88akj7bkqgq61q8t72gek9v2f72ov33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABhFLoKFXT1t5IAp_ypO0GF6uOxSzkn30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734888872711-i88akj7bkqgq61q8t72gek9v2f72ov33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
