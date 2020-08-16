@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Lunchbox Partner</string>
     <string name="terms_amp_condition"><![CDATA[terms & condition]]></string>
+    <string name="owner_name">Owner Name</string>
+    <string name="hostel_name">Hostel Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
 </resources>

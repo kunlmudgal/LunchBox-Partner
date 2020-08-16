@@ -1,6 +1,5 @@
-package com.dscglbajaj.lunchboxpartner;
+package com.dscglbajaj.lunchboxpartner.activities;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -9,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toolbar;
 
+import com.dscglbajaj.lunchboxpartner.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeActivity extends AppCompatActivity {

@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroud"
-    tools:context=".SignUpActivity">
+    tools:context=".activities.SignUpActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingBottom="30dp">
 
-<!--        <ImageView-->
-<!--            android:id="@+id/imageView2"-->
-<!--            android:layout_width="80dp"-->
-<!--            android:layout_height="80dp"-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView2"-->
+        <!--            android:layout_width="80dp"-->
+        <!--            android:layout_height="80dp"-->
 <!--            android:layout_gravity="center"-->
 <!--            android:layout_marginTop="40dp"-->
 <!--            android:src="@drawable/mainlogo" />-->
@@ -46,7 +47,7 @@
                 android:background="@color/Whitebright"
                 android:drawablePadding="6dp"
                 android:ems="10"
-                android:hint="Username"
+                android:hint="@string/owner_name"
                 android:paddingLeft="20dp"
                 android:textColor="@color/BG"
                 android:textColorHint="@color/BG"
@@ -67,7 +68,7 @@
                 android:background="@color/Whitebright"
                 android:drawablePadding="6dp"
                 android:ems="10"
-                android:hint="Hostel"
+                android:hint="@string/hostel_name"
                 android:paddingLeft="20dp"
                 android:textColor="@color/BG"
                 android:textColorHint="@color/BG"
@@ -89,7 +90,7 @@
                 android:background="@color/Whitebright"
                 android:drawablePadding="6dp"
                 android:ems="10"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:paddingLeft="20dp"
                 android:textColor="@color/BG"
@@ -114,7 +115,7 @@
                 android:digits="0123456789"
                 android:drawablePadding="6dp"
                 android:ems="10"
-                android:hint=" Phone Number"
+                android:hint="@string/phone_number"
                 android:inputType="phone"
                 android:paddingLeft="20dp"
                 android:textColor="@color/BG"
