@@ -29,7 +29,7 @@ public class StudentsAdapter extends RecyclerView.Adapter<StudentViewHolder> imp
             } else {
                 for (Student s :
                         mAllStudentDataSet) {
-                    if (s.getName().contains(constraint.toString().trim())) {
+                    if (s.getName().toLowerCase().contains(constraint.toString().toLowerCase().trim())) {
                         filteredStudents.add(s);
                     }
                 }
@@ -50,7 +50,7 @@ public class StudentsAdapter extends RecyclerView.Adapter<StudentViewHolder> imp
 
     public StudentsAdapter(ArrayList<Student> studentDataSet) {
         this.mStudentDataSet = studentDataSet;
-        this.mAllStudentDataSet = studentDataSet;
+        this.mAllStudentDataSet = new ArrayList<Student>(studentDataSet);
     }
 
     // Create new views (invoked by the layout manager)
