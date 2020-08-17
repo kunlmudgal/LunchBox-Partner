@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroud"
+    android:background="@color/background"
     tools:context=".activities.SignUpActivity">
 
     <LinearLayout
@@ -44,7 +44,7 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:background="@color/Whitebright"
+                android:background="@color/WhiteBright"
                 android:drawablePadding="6dp"
                 android:ems="10"
                 android:hint="@string/owner_name"
@@ -65,7 +65,7 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:background="@color/Whitebright"
+                android:background="@color/WhiteBright"
                 android:drawablePadding="6dp"
                 android:ems="10"
                 android:hint="@string/hostel_name"
@@ -87,7 +87,7 @@
                 android:layout_width="300dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
-                android:background="@color/Whitebright"
+                android:background="@color/WhiteBright"
                 android:drawablePadding="6dp"
                 android:ems="10"
                 android:hint="@string/email"
@@ -111,7 +111,7 @@
                 android:layout_height="50dp"
 
                 android:layout_gravity="center"
-                android:background="@color/Whitebright"
+                android:background="@color/WhiteBright"
                 android:digits="0123456789"
                 android:drawablePadding="6dp"
                 android:ems="10"
@@ -197,7 +197,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:background="@color/Whitebright"
+                android:background="@color/WhiteBright"
                 android:drawablePadding="6dp"
                 android:hint="Password"
                 android:inputType="textPassword"
@@ -219,7 +219,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:background="@color/Whitebright"
+                android:background="@color/WhiteBright"
                 android:drawablePadding="6dp"
                 android:hint=" Confirm Password"
                 android:inputType="textPassword"
@@ -274,7 +274,7 @@
                 android:background="@color/Form"
                 android:gravity="center"
                 android:text="Sign Up"
-                android:textColor="@color/Whitebright" />
+                android:textColor="@color/WhiteBright" />
         </androidx.cardview.widget.CardView>
 
         <TextView

@@ -1,8 +1,5 @@
 package com.dscglbajaj.lunchboxpartner.activities;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +10,9 @@ import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.dscglbajaj.lunchboxpartner.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -77,7 +77,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                                             FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
                                             DatabaseReference databaseReference = firebaseDatabase.getReference();
-                                            String user_id = mAuth.getInstance().getUid();
+                                            String user_id = FirebaseAuth.getInstance().getUid();
                                             DatabaseReference current_user_db = mdatabase.child("User").child(user_id);
 
                                             current_user_db.child("UserName").setValue(userName.getText().toString());
@@ -123,7 +123,7 @@ public class SignUpActivity extends AppCompatActivity {
 //                                            current_user_db.push().setValue(newPost);
                                             Toast.makeText(SignUpActivity.this, "Registrion Successfull", Toast.LENGTH_SHORT).show();
                                             startActivity(new Intent(SignUpActivity.this
-                                                    , HomeActivity.class));
+                                                    , PartnerActivity.class));
                                             finish();
                                         }
                                     }

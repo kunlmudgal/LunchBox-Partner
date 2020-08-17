@@ -8,18 +8,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.dscglbajaj.lunchboxpartner.R;
 
-public class LandingActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_landing);
+        setContentView(R.layout.activity_splash);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(LandingActivity.this, LoginActivity.class));
+                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                 finish();
             }
-        },2500);
+        }, 2000);
     }
 }

@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    <color name="colorPrimary">#6200EE</color>-->
-<!--    <color name="colorPrimaryDark">#3700B3</color>-->
-<!--    <color name="colorAccent">#03DAC5</color>-->
+    <!--<color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>-->
+    <color name="colorAccent">#03DAC5</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#000</color>
+    <color name="primaryTextColor">#fafafa</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <!--<color name="colorAccent">#000</color>-->
     <color name="colorBlueDark">#332D8C</color>
     <color name="Gray">#54595e</color>
     <color name="Black">#323538</color>
     <color name="Blue">#4d8ef6</color>
     <color name="PrimaryWhite">#dce2e4</color>
-    <color name="Whitebright">#ffffff</color>
+    <color name="WhiteBright">#ffffff</color>
     <color name="WhiteD">#f6fafd</color>
     <color name="Primary">#147a6d</color>
     <color name="GrayW">#f7f7f7</color>
     <color name="BG">#1b4d80</color>
-    <color name="backgroud">#CCEEF4</color>
+    <color name="background">#CCEEF4</color>
     <color name="Form">#266b92</color>
     <color name="Ambulance">#34ace0</color>
     <color name="Hospital">#1abc9c</color>
     <color name="GvtPolocies">#706fd3</color>
     <color name="Fund">#ffb912</color>
-    <color name="Blogs">#833471</color>
-    <color name="Doners">#e74c3c</color>
+    <color name="blogs">#833471</color>
+    <color name="doners">#e74c3c</color>
 </resources>

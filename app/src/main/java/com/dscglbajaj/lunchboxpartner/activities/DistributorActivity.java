@@ -1,14 +1,13 @@
 package com.dscglbajaj.lunchboxpartner.activities;
 
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
 
 import com.dscglbajaj.lunchboxpartner.R;
 import com.dscglbajaj.lunchboxpartner.adapters.StudentsAdapter;
@@ -19,8 +18,10 @@ import java.util.ArrayList;
 public class DistributorActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
     private RecyclerView recyclerView;
-    private RecyclerView.Adapter mAdapter;
+    private StudentsAdapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
+
+    private ArrayList<Student> students;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,12 +60,19 @@ public class DistributorActivity extends AppCompatActivity implements SearchView
 
     @Override
     public boolean onQueryTextChange(String newText) {
+        //TODO: Filer the students
+        mAdapter.getFilter().filter(newText);
         return false;
     }
 
-    //TODO: Refract sample data to fetch data from database
+
     private ArrayList<Student> getSampleStudentsData() {
-        ArrayList<Student> students = new ArrayList<>();
+        students = new ArrayList<>();
+        //TODO: Refract sample data to fetch data from database
+        students.add(new Student("Kunal Mudgal"));
+        students.add(new Student("Mayank Tyagi"));
+        students.add(new Student("Utkarsh Singh"));
+        students.add(new Student("Yash Talan"));
         return students;
     }
 }

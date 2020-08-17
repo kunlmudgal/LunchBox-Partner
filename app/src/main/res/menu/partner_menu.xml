@@ -5,10 +5,13 @@
     tools:context=".MainActivity">
 
         <item
-            android:id="@+id/action_favorite"
-            android:orderInCategory="300"
+            android:id="@+id/action_logout"
             android:icon="@drawable/ic_iconmonstr_log_out_4"
+            android:orderInCategory="300"
             android:title="Logout"
-            app:showAsAction="ifRoom" />
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/action_distributor"
+            android:title="Distributor" />
 
 </menu>
